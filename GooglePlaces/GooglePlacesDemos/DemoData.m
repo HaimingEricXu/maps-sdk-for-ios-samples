@@ -22,6 +22,7 @@
 #import "GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithTextFieldController.h"
 #import "GooglePlacesDemos/Samples/FindPlaceLikelihoodListViewController.h"
 #import "GooglePlacesDemos/Support/BaseDemoViewController.h"
+#import "GooglePlacesDemos-Swift.h"
 
 @implementation Demo {
   Class _viewControllerClass;
@@ -81,6 +82,10 @@
     NSArray<Demo *> *findPlaceLikelihoodDemos = @[ [[Demo alloc]
         initWithViewControllerClass:[FindPlaceLikelihoodListViewController class]] ];
 
+    NSArray<Demo *> *placeDetails = @[
+        [[Demo alloc] initWithViewControllerClass:[PlaceDetailViewController class]]
+    ];
+      
     _sections = @[
       [[DemoSection alloc]
           initWithTitle:NSLocalizedString(@"Demo.Section.Title.Autocomplete",
@@ -89,7 +94,8 @@
       [[DemoSection alloc]
           initWithTitle:NSLocalizedString(@"Demo.Section.Title.FindPlaceLikelihood",
                                           @"Title of the findPlaceLikelihood demo section")
-                  demos:findPlaceLikelihoodDemos]
+                  demos:findPlaceLikelihoodDemos],
+      [[DemoSection alloc] initWithTitle:@"PlaceDetails" demos:placeDetails]
     ];
   }
   return self;

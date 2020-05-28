@@ -22,6 +22,7 @@
 		893AFDBC37BAD181B89DBE05 /* AutocompletePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAEA89ED8C397E73E2E9730 /* AutocompletePushViewController.m */; };
 		8C59A77A235FCAEEE2D7E6CB /* AutocompleteModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1502E6F1A86B1773138153B /* AutocompleteModalViewController.m */; };
 		A3D84E176FACD02AA9FAC18C /* BaseDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4BD9841268F97FD23E770 /* BaseDemoViewController.m */; };
+		AA606A1C2480369D00AC01F7 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA606A1B2480369D00AC01F7 /* PlaceDetailViewController.swift */; };
 		BDCD4957C53C15747F136768 /* AutocompleteWithCustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03FEE150596E9432F612DF /* AutocompleteWithCustomColors.m */; };
 		C31E5320A5DBA3B92410CC12 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D344C64A66F10D55590797E /* Localizable.strings */; };
 		CCE1EEA311AF30C9E7273CA6 /* PagingPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21153EB819432638638C2C26 /* PagingPhotoView.m */; };
@@ -73,6 +74,8 @@
 		A8162D0DA3B592BBB6E3FA35 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A8233D7A6FCDAD9F3E3FFEFC /* pt_PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A997870E831544227236DF00 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA606A1A2480369D00AC01F7 /* GooglePlacesDemos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GooglePlacesDemos-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA606A1B2480369D00AC01F7 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
 		AADF2995CB717FE4D341C944 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADB9E4A950DB2EA454486E47 /* AutocompleteWithTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutocompleteWithTextFieldController.m; sourceTree = "<group>"; };
 		AF5862DFC2F44C360067E8C5 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -195,7 +198,6 @@
 			children = (
 				9DC189CCD8E50BCAF52B8DF0 /* Pods-GooglePlacesDemos.default.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,6 +209,8 @@
 				18AE29BAB2CC24B015F7754A /* FindPlaceLikelihoodListViewController.m */,
 				3CB3E42FBF23DD0411D5EFB5 /* PagingPhotoView.h */,
 				21153EB819432638638C2C26 /* PagingPhotoView.m */,
+				AA606A1B2480369D00AC01F7 /* PlaceDetailViewController.swift */,
+				AA606A1A2480369D00AC01F7 /* GooglePlacesDemos-Bridging-Header.h */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -258,6 +262,11 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					71EABCA8BFCB342F947AF4D2 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 63964CA36C9733EFF27C66CD /* Build configuration list for PBXProject "GooglePlacesDemos" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -337,16 +346,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GooglePlacesDemos/Pods-GooglePlacesDemos-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
@@ -394,6 +399,7 @@
 				893AFDBC37BAD181B89DBE05 /* AutocompletePushViewController.m in Sources */,
 				BDCD4957C53C15747F136768 /* AutocompleteWithCustomColors.m in Sources */,
 				1F8E76499BD9AC1A594A09DF /* AutocompleteWithSearchViewController.m in Sources */,
+				AA606A1C2480369D00AC01F7 /* PlaceDetailViewController.swift in Sources */,
 				19D03B4688CF7DF76076B137 /* AutocompleteWithTextFieldController.m in Sources */,
 				30DB731057D560A0F3017362 /* FindPlaceLikelihoodListViewController.m in Sources */,
 				CCE1EEA311AF30C9E7273CA6 /* PagingPhotoView.m in Sources */,
@@ -478,15 +484,19 @@
 			baseConfigurationReference = 9DC189CCD8E50BCAF52B8DF0 /* Pods-GooglePlacesDemos.default.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ./GooglePlacesDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					.,
 					"$(SDKROOT)/System/Library/Frameworks",
 				);
 				PRODUCT_NAME = GooglePlacesDemos;
+				SWIFT_OBJC_BRIDGING_HEADER = "GooglePlacesDemos/Samples/GooglePlacesDemos-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				USE_HEADERMAP = NO;
