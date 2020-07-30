@@ -15,7 +15,7 @@
 
 /// API keys needed for this project
 public enum apikeys {
-    //#error("Register for API keys and enter them below; then, delete this line")
+    #error("Register for API keys and enter them below; then, delete this line")
     static let mapsAPI = ""
     static let placesAPI = ""
 }
