@@ -45,7 +45,7 @@ $ pod install
 $ open GoogleProject.xcworkspace
 ```
 
-Like the other subdirectories, you will need to add an API key in the file GoogleProject/apikeys.swift
+Like the other subdirectories, you will need to add API keys for Google Maps and Google Places in the file GoogleProject/apikeys.swift
 
 ## Tutorials
 
