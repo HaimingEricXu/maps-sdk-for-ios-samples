@@ -36,8 +36,8 @@ You will need to add an API Key to `GooglePlacesDemos/SDKDemoAPIKey.h`. Please s
 [documentation](https://developers.google.com/places/ios-api/start#get-key)
 for details on how to get an API Key.
 
-## GoogleCombined
-The GoogleCombined sub-directory contains a demo application that showcases some of the capabilities the API's have when used together. There is also a Material Design influenced user interface. To use this project,
+## MapsAndPlacesDemos
+The MapsAndPlacesDemos sub-directory contains a demo application that showcases some of the capabilities the API's have when used together. There is also a Material Design influenced user interface. To use this project,
 
 ```
 $ cd GoogleCombined
