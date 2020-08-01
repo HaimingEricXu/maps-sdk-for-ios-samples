@@ -1,4 +1,7 @@
-### Google Internship Project
-#### Creating a demo application for Google Maps and Google Places
-- Register for an API key to both Google Places and Google Maps
-- There is already a prewritten Podfile. In your terminal, be sure to run pod install in order to download the correct dependencies -- this app will NOT run without running pod install
+#### MapsAndPlacesDemo
+### Description
+This demo application looks to bridge some of the features found in the GooglePlaces and GoogleMaps demo applications as well as utilize some of the ways the two API's can work together.
+
+__This project was made by Haiming Xu as an internship project from 05/2020 to 08/2020__
+#### Requirements
+- A Google Cloud Platform API key with Maps SDK for iOS and Places SDk for iOS enabled
