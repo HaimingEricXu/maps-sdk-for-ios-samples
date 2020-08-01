@@ -12,11 +12,11 @@
 		3A09AB3524C62D430032E5D0 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A09AB3424C62D430032E5D0 /* UITextViewExtension.swift */; };
 		3A0CD2A524AA736200ECF296 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0CD2A424AA736200ECF296 /* PopUpViewController.swift */; };
 		3AA3395B24CA051500AB745C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3AC040A124D60FE80015DE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC040A024D60FE70015DE70 /* Assets.xcassets */; };
 		3AC1ABAA24AAB678003D5CF0 /* MapThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1ABA924AAB678003D5CF0 /* MapThemes.swift */; };
 		3AC1ABAC24AAB6D7003D5CF0 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1ABAB24AAB6D7003D5CF0 /* UIImageExtension.swift */; };
 		3AC1ABAE24AAC128003D5CF0 /* Clusters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1ABAD24AAC128003D5CF0 /* Clusters.swift */; };
 		3AC1ABB424ABFD78003D5CF0 /* dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1ABB324ABFD77003D5CF0 /* dataset.json */; };
-		5DBF61CACF83B12FEE90EA60 /* Pods_GoogleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B14483610A4C076333AB730 /* Pods_GoogleProject.framework */; };
 		96764DA724915F2400B4B0B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96764DA624915F2400B4B0B3 /* AppDelegate.swift */; };
 		96764DA924915F2400B4B0B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96764DA824915F2400B4B0B3 /* SceneDelegate.swift */; };
 		96764DAB24915F2400B4B0B3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96764DAA24915F2400B4B0B3 /* WelcomeViewController.swift */; };
@@ -29,6 +29,7 @@
 		96EC1543249BF61400F59A9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC1542249BF61400F59A9C /* MainViewController.swift */; };
 		96F53C5E24A269A400355240 /* LocationImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F53C5D24A269A400355240 /* LocationImageGenerator.swift */; };
 		96F53C6224A26C0A00355240 /* OverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F53C6124A26C0A00355240 /* OverlayController.swift */; };
+		EE0A4BA8B9DF26094EF025BD /* Pods_MapsAndPlacesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA73637BD147D4B6E109975 /* Pods_MapsAndPlacesDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,16 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154D3334C46AE7588B588757 /* Pods-MapsAndPlacesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsAndPlacesDemo.debug.xcconfig"; path = "Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3A0747F024D0B9BF002492DF /* apikeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apikeys.swift; sourceTree = "<group>"; };
 		3A09AB3224C61DC70032E5D0 /* MDCFloatingActionButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDCFloatingActionButtonExtension.swift; sourceTree = "<group>"; };
 		3A09AB3424C62D430032E5D0 /* UITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
 		3A0CD2A424AA736200ECF296 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		3AC040A024D60FE70015DE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MapsAndPlacesDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3AC1ABA924AAB678003D5CF0 /* MapThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThemes.swift; sourceTree = "<group>"; };
 		3AC1ABAB24AAB6D7003D5CF0 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		3AC1ABAD24AAC128003D5CF0 /* Clusters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clusters.swift; sourceTree = "<group>"; };
 		3AC1ABB324ABFD77003D5CF0 /* dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataset.json; sourceTree = SOURCE_ROOT; };
-		5B14483610A4C076333AB730 /* Pods_GoogleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96764DA324915F2400B4B0B3 /* GoogleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBA8D2627182646BB3E60C6 /* Pods-MapsAndPlacesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsAndPlacesDemo.release.xcconfig"; path = "Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		96764DA324915F2400B4B0B3 /* MapsAndPlacesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsAndPlacesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96764DA624915F2400B4B0B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96764DA824915F2400B4B0B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		96764DAA24915F2400B4B0B3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -66,18 +69,17 @@
 		96764DAF24915F2700B4B0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96764DB224915F2700B4B0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96764DB424915F2700B4B0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96764DB924915F2700B4B0B3 /* GoogleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96764DB924915F2700B4B0B3 /* MapsAndPlacesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsAndPlacesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96764DBD24915F2700B4B0B3 /* GoogleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleProjectTests.swift; sourceTree = "<group>"; };
 		96764DBF24915F2700B4B0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96764DC424915F2700B4B0B3 /* GoogleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96764DC424915F2700B4B0B3 /* MapsAndPlacesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsAndPlacesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96764DC824915F2700B4B0B3 /* GoogleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleProjectUITests.swift; sourceTree = "<group>"; };
 		96764DCA24915F2700B4B0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96BE19FF249D4B890071C69F /* StreetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetViewController.swift; sourceTree = "<group>"; };
 		96EC1542249BF61400F59A9C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		96F53C5D24A269A400355240 /* LocationImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationImageGenerator.swift; sourceTree = "<group>"; };
 		96F53C6124A26C0A00355240 /* OverlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayController.swift; sourceTree = "<group>"; };
-		B1764BFB9789A36D696C5596 /* Pods-GoogleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleProject.debug.xcconfig"; path = "Target Support Files/Pods-GoogleProject/Pods-GoogleProject.debug.xcconfig"; sourceTree = "<group>"; };
-		D919181953EF02E6A334D7EB /* Pods-GoogleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleProject.release.xcconfig"; path = "Target Support Files/Pods-GoogleProject/Pods-GoogleProject.release.xcconfig"; sourceTree = "<group>"; };
+		DBA73637BD147D4B6E109975 /* Pods_MapsAndPlacesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsAndPlacesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DBF61CACF83B12FEE90EA60 /* Pods_GoogleProject.framework in Frameworks */,
+				EE0A4BA8B9DF26094EF025BD /* Pods_MapsAndPlacesDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +111,8 @@
 		180080D0B2E7C665E8638E97 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1764BFB9789A36D696C5596 /* Pods-GoogleProject.debug.xcconfig */,
-				D919181953EF02E6A334D7EB /* Pods-GoogleProject.release.xcconfig */,
+				154D3334C46AE7588B588757 /* Pods-MapsAndPlacesDemo.debug.xcconfig */,
+				5EBA8D2627182646BB3E60C6 /* Pods-MapsAndPlacesDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -118,28 +120,29 @@
 		96764D9A24915F2400B4B0B3 = {
 			isa = PBXGroup;
 			children = (
-				96764DA524915F2400B4B0B3 /* GoogleProject */,
+				96764DA524915F2400B4B0B3 /* MapsAndPlacesDemo */,
 				96764DBC24915F2700B4B0B3 /* GoogleProjectTests */,
 				96764DC724915F2700B4B0B3 /* GoogleProjectUITests */,
 				96764DA424915F2400B4B0B3 /* Products */,
 				180080D0B2E7C665E8638E97 /* Pods */,
-				F099EA4D524EA0B7A4C07732 /* Frameworks */,
+				AED57FEF2AE35625B924F2D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		96764DA424915F2400B4B0B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96764DA324915F2400B4B0B3 /* GoogleProject.app */,
-				96764DB924915F2700B4B0B3 /* GoogleProjectTests.xctest */,
-				96764DC424915F2700B4B0B3 /* GoogleProjectUITests.xctest */,
+				96764DA324915F2400B4B0B3 /* MapsAndPlacesDemo.app */,
+				96764DB924915F2700B4B0B3 /* MapsAndPlacesDemoTests.xctest */,
+				96764DC424915F2700B4B0B3 /* MapsAndPlacesDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96764DA524915F2400B4B0B3 /* GoogleProject */ = {
+		96764DA524915F2400B4B0B3 /* MapsAndPlacesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3AC040A024D60FE70015DE70 /* Assets.xcassets */,
 				96764DA624915F2400B4B0B3 /* AppDelegate.swift */,
 				3A0747F024D0B9BF002492DF /* apikeys.swift */,
 				96764DA824915F2400B4B0B3 /* SceneDelegate.swift */,
@@ -160,7 +163,7 @@
 				96764DB124915F2700B4B0B3 /* LaunchScreen.storyboard */,
 				96764DB424915F2700B4B0B3 /* Info.plist */,
 			);
-			path = GoogleProject;
+			path = MapsAndPlacesDemo;
 			sourceTree = "<group>";
 		};
 		96764DBC24915F2700B4B0B3 /* GoogleProjectTests */ = {
@@ -181,10 +184,10 @@
 			path = GoogleProjectUITests;
 			sourceTree = "<group>";
 		};
-		F099EA4D524EA0B7A4C07732 /* Frameworks */ = {
+		AED57FEF2AE35625B924F2D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B14483610A4C076333AB730 /* Pods_GoogleProject.framework */,
+				DBA73637BD147D4B6E109975 /* Pods_MapsAndPlacesDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,29 +195,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96764DA224915F2400B4B0B3 /* GoogleProject */ = {
+		96764DA224915F2400B4B0B3 /* MapsAndPlacesDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96764DCD24915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "GoogleProject" */;
+			buildConfigurationList = 96764DCD24915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "MapsAndPlacesDemo" */;
 			buildPhases = (
-				85BC7361A08D06415D6DD9CF /* [CP] Check Pods Manifest.lock */,
+				4D9E84A8EF1E9DEC8863472E /* [CP] Check Pods Manifest.lock */,
 				96764D9F24915F2400B4B0B3 /* Sources */,
 				96764DA024915F2400B4B0B3 /* Frameworks */,
 				96764DA124915F2400B4B0B3 /* Resources */,
-				C077BACD184DFDE09079E410 /* [CP] Copy Pods Resources */,
-				2F45B82D939F5A4979FF6D4B /* [CP] Embed Pods Frameworks */,
+				24B2DDA7F96ECAB6AB8C6470 /* [CP] Embed Pods Frameworks */,
+				3F820CC1AE5803C13634918D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GoogleProject;
+			name = MapsAndPlacesDemo;
 			productName = GoogleProject;
-			productReference = 96764DA324915F2400B4B0B3 /* GoogleProject.app */;
+			productReference = 96764DA324915F2400B4B0B3 /* MapsAndPlacesDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		96764DB824915F2700B4B0B3 /* GoogleProjectTests */ = {
+		96764DB824915F2700B4B0B3 /* MapsAndPlacesDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96764DD024915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "GoogleProjectTests" */;
+			buildConfigurationList = 96764DD024915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "MapsAndPlacesDemoTests" */;
 			buildPhases = (
 				96764DB524915F2700B4B0B3 /* Sources */,
 				96764DB624915F2700B4B0B3 /* Frameworks */,
@@ -225,14 +228,14 @@
 			dependencies = (
 				96764DBB24915F2700B4B0B3 /* PBXTargetDependency */,
 			);
-			name = GoogleProjectTests;
+			name = MapsAndPlacesDemoTests;
 			productName = GoogleProjectTests;
-			productReference = 96764DB924915F2700B4B0B3 /* GoogleProjectTests.xctest */;
+			productReference = 96764DB924915F2700B4B0B3 /* MapsAndPlacesDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		96764DC324915F2700B4B0B3 /* GoogleProjectUITests */ = {
+		96764DC324915F2700B4B0B3 /* MapsAndPlacesDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96764DD324915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "GoogleProjectUITests" */;
+			buildConfigurationList = 96764DD324915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "MapsAndPlacesDemoUITests" */;
 			buildPhases = (
 				96764DC024915F2700B4B0B3 /* Sources */,
 				96764DC124915F2700B4B0B3 /* Frameworks */,
@@ -243,9 +246,9 @@
 			dependencies = (
 				96764DC624915F2700B4B0B3 /* PBXTargetDependency */,
 			);
-			name = GoogleProjectUITests;
+			name = MapsAndPlacesDemoUITests;
 			productName = GoogleProjectUITests;
-			productReference = 96764DC424915F2700B4B0B3 /* GoogleProjectUITests.xctest */;
+			productReference = 96764DC424915F2700B4B0B3 /* MapsAndPlacesDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 96764D9E24915F2400B4B0B3 /* Build configuration list for PBXProject "GoogleProject" */;
+			buildConfigurationList = 96764D9E24915F2400B4B0B3 /* Build configuration list for PBXProject "MapsAndPlacesDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,9 +287,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96764DA224915F2400B4B0B3 /* GoogleProject */,
-				96764DB824915F2700B4B0B3 /* GoogleProjectTests */,
-				96764DC324915F2700B4B0B3 /* GoogleProjectUITests */,
+				96764DA224915F2400B4B0B3 /* MapsAndPlacesDemo */,
+				96764DB824915F2700B4B0B3 /* MapsAndPlacesDemoTests */,
+				96764DC324915F2700B4B0B3 /* MapsAndPlacesDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +303,7 @@
 				96764DB024915F2700B4B0B3 /* Assets.xcassets in Resources */,
 				3AC1ABB424ABFD78003D5CF0 /* dataset.json in Resources */,
 				96764DAE24915F2400B4B0B3 /* Main.storyboard in Resources */,
+				3AC040A124D60FE80015DE70 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,24 +324,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F45B82D939F5A4979FF6D4B /* [CP] Embed Pods Frameworks */ = {
+		24B2DDA7F96ECAB6AB8C6470 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleProject/Pods-GoogleProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleProject/Pods-GoogleProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleProject/Pods-GoogleProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		85BC7361A08D06415D6DD9CF /* [CP] Check Pods Manifest.lock */ = {
+		3F820CC1AE5803C13634918D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapsAndPlacesDemo/Pods-MapsAndPlacesDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9E84A8EF1E9DEC8863472E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,28 +373,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GoogleProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MapsAndPlacesDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C077BACD184DFDE09079E410 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleProject/Pods-GoogleProject-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleProject/Pods-GoogleProject-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleProject/Pods-GoogleProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -422,12 +426,12 @@
 /* Begin PBXTargetDependency section */
 		96764DBB24915F2700B4B0B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96764DA224915F2400B4B0B3 /* GoogleProject */;
+			target = 96764DA224915F2400B4B0B3 /* MapsAndPlacesDemo */;
 			targetProxy = 96764DBA24915F2700B4B0B3 /* PBXContainerItemProxy */;
 		};
 		96764DC624915F2700B4B0B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96764DA224915F2400B4B0B3 /* GoogleProject */;
+			target = 96764DA224915F2400B4B0B3 /* MapsAndPlacesDemo */;
 			targetProxy = 96764DC524915F2700B4B0B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -568,17 +572,17 @@
 		};
 		96764DCE24915F2700B4B0B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1764BFB9789A36D696C5596 /* Pods-GoogleProject.debug.xcconfig */;
+			baseConfigurationReference = 154D3334C46AE7588B588757 /* Pods-MapsAndPlacesDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9B54GG4YJ;
-				INFOPLIST_FILE = GoogleProject/Info.plist;
+				INFOPLIST_FILE = MapsAndPlacesDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = haimingxu.GoogleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = haimingxu.MapsAndPlacesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -587,17 +591,17 @@
 		};
 		96764DCF24915F2700B4B0B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D919181953EF02E6A334D7EB /* Pods-GoogleProject.release.xcconfig */;
+			baseConfigurationReference = 5EBA8D2627182646BB3E60C6 /* Pods-MapsAndPlacesDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9B54GG4YJ;
-				INFOPLIST_FILE = GoogleProject/Info.plist;
+				INFOPLIST_FILE = MapsAndPlacesDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = haimingxu.GoogleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = haimingxu.MapsAndPlacesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,7 +626,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleProject.app/GoogleProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapsAndPlacesDemo.app/MapsAndPlacesDemo";
 			};
 			name = Debug;
 		};
@@ -644,7 +648,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleProject.app/GoogleProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapsAndPlacesDemo.app/MapsAndPlacesDemo";
 			};
 			name = Release;
 		};
@@ -691,7 +695,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96764D9E24915F2400B4B0B3 /* Build configuration list for PBXProject "GoogleProject" */ = {
+		96764D9E24915F2400B4B0B3 /* Build configuration list for PBXProject "MapsAndPlacesDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96764DCB24915F2700B4B0B3 /* Debug */,
@@ -700,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96764DCD24915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "GoogleProject" */ = {
+		96764DCD24915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "MapsAndPlacesDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96764DCE24915F2700B4B0B3 /* Debug */,
@@ -709,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96764DD024915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "GoogleProjectTests" */ = {
+		96764DD024915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "MapsAndPlacesDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96764DD124915F2700B4B0B3 /* Debug */,
@@ -718,7 +722,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96764DD324915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "GoogleProjectUITests" */ = {
+		96764DD324915F2700B4B0B3 /* Build configuration list for PBXNativeTarget "MapsAndPlacesDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96764DD424915F2700B4B0B3 /* Debug */,
