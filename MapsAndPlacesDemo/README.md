@@ -2,6 +2,7 @@
 ## Description
 This demo application looks to bridge some of the features found in the GooglePlaces and GoogleMaps demo applications as well as utilize some of the ways the two API's can work together.
 For more details, please view my [design document](https://docs.google.com/document/d/1hMAYWIzPWIDOCDoLwaJEIVfCDWZjPeMfe1MaQlS_f-o/edit?usp=sharing). Be sure to be logged into your @google account!
+Click this [link](https://www.youtube.com/watch?v=u4Ih8EWqZio) to watch a video demonstration.
 
 __This project was made by Haiming Xu as an internship project from 05/2020 to 08/2020__
 ## Requirements
