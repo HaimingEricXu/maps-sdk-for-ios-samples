@@ -13,4 +13,3 @@ __This project was made by Haiming Xu as an internship project from 05/2020 to 0
 2. Run `pod install`
 3. Open `MapsAndPlacesDemo.xcworkspace`
 4. Drag the data set (dataset.json) into the Xcode file explorer (left pane)
-Please view help.txt for more detailed steps as well as what the input should look like.
