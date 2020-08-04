@@ -25,7 +25,7 @@ import MaterialComponents.MaterialSnackbar
 
 
 /// This struct contains the current location in terms of coordinates and place id
-struct Identifiers {
+struct CoordinateAndPlaceID {
     private var coord = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
     private var pid: String = "ChIJP3Sa8ziYEmsRUKgyFmh9AQM"
     
@@ -112,13 +112,13 @@ class GoogleDemoApplicationsMainViewController:
     private var indicatorDim: CGFloat = 20
     
     /// The zoom of the camera
-    private var zoom: Float!
+    private var zoom: Float = 10.0
     
     // The maximum zoom value; useful for indoor maps
     private let maximumZoom: Float = 20.0
     
     /// Sets up the identifier that contains information on where the map should go to
-    private var mapsIdentifier = Identifiers()
+    private var mapsIdentifier = CoordinateAndPlaceID()
     
     /// When the user selects indoor toggle, the map goes to the interior of Sydney Opera House as default
     private let sydneyOperaHouseCoord = CLLocationCoordinate2D(
@@ -333,8 +333,8 @@ class GoogleDemoApplicationsMainViewController:
             for item in object {
                 // Given the way the code parses through the json file, the lat and long can be
                 // retrieved via item like a dictionary
-                let lat: Double = item["lat"] as? CLLocationDegrees ?? 0.0
-                let lng: Double = item["lng"] as? CLLocationDegrees ?? 0.0
+                let lat = item["lat"] as? CLLocationDegrees ?? 0.0
+                let lng = item["lng"] as? CLLocationDegrees ?? 0.0
                 
                 // Creates a weighted coordinate for that lat and long; a weighted coordinate is
                 // how the heatmap gets different colors
@@ -405,8 +405,8 @@ class GoogleDemoApplicationsMainViewController:
                 print("The placeLikelihoodList is possibly nil")
                 return
             }
-            var counter: Int = 0
-            var first: Bool = true
+            var counter = 0
+            var first = true
             for loc in placeLikelihoodList.likelihoods {
                 
                 // We need to skip the first element because the first element is the actual
