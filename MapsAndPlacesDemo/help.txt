@@ -1,4 +1,4 @@
-### This document will assist with data set related problems.
+This document will assist with data set related problems.
 - If you already have a data set, make sure it is a JSON file and rename it to dataset.json. This allows the Swift program to read and find the correct file.
 - The data set should follow formatting like this:
 `
