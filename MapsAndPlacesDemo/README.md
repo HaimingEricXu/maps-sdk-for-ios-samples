@@ -8,13 +8,10 @@ __This project was made by Haiming Xu as an internship project from 05/2020 to 0
 ## Requirements
 - A [Google Cloud Platform API key](https://developers.google.com/maps/documentation/ios-sdk/start#get-key) with Maps SDK for iOS and Places SDK for iOS enabled
 - A light and dark themed map, which can be created [here](https://console.cloud.google.com/google/maps-apis/client-styles?project=verdant-medium-278819&folder=&organizationId=) (make sure you sign in first)
-- A data set that follows the correct formatting (and is also a JSON file) OR a text file of raw coordinates
+- A data set that follows the correct formatting (and is also a JSON file) like the one provided 
 ## Installation
 1. Make sure you are in the right folder (MapsAndPlacesDemo)
 2. Run `pod install`
 3. Open `MapsAndPlacesDemo.xcworkspace`
-4. If you have a data set that follows the requirements, rename it to dataset.json and skip to step 7
-5. Create a set of raw coordintes called raw_input.txt
-6. Compile create_list.cpp and run
-7. Drag your data set (dataset.json or your data set) into the Xcode file explorer (left pane)
+4. Drag the data set (dataset.json) into the Xcode file explorer (left pane)
 Please view help.txt for more detailed steps as well as what the input should look like.
