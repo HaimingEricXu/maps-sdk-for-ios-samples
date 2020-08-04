@@ -49,7 +49,7 @@ class OverlayController {
         task.resume()
     }
     
-    /// Finds and parses data to extract a placeId from a set of coordinates
+    /// Finds and parses data to extract a placeId from a set of coordinates and sends the appropriate data to the completion handler
     ///
     /// - Parameters:
     ///   - latitude: The latitude of the location.

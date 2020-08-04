@@ -32,8 +32,8 @@ class LocationImageGenerator {
     ///   - imageView: The image view that we want to set the image on.
     ///   - select: Indicates if we want the image on the image view; if this is false, tapped should be true.
     ///   - tapped: Indicates if we want the image on the GMSMarker; if this is false, select should be true.
-    ///   - width: The width of the image; it is set to default at 110.
-    ///   - height: The height of the image; it is set to default at 110.
+    ///   - width: The width of the image; it is set to default at 110, found via trial/error to be good for all phone sizes.
+    ///   - height: The height of the image; it is set to default at 110, found via trial/error to be good for all phone sizes.
     func viewImage(
         placeId: String,
         localMarker: GMSMarker,
